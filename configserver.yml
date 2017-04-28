@@ -1,3 +1,9 @@
-security:
-  basic:
-    enabled: false
+spring:
+  profiles:
+    active: git
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://C:/workspace/apps-platform-acceleration-spring-configuration-code
+          
